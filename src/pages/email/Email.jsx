@@ -8,7 +8,7 @@ const Email = () => {
       <Sidebar />
       <div className="email-container">
         <Navbar />
-        Email
+        Email Page
       </div>
     </div>
   );
