@@ -1,0 +1,14 @@
+.linegridchart {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+
+  .linegridchart-container {
+    padding: 10px;
+
+    .total {
+      text-align: center;
+      font-size: 12px;
+    }
+  }
+}

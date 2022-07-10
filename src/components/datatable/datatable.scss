@@ -1,0 +1,117 @@
+.datatable {
+  margin: 20px;
+  height: 700px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  .toolbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    .search {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid gray;
+
+      margin-right: 10px;
+      border-radius: 3px;
+      input {
+        padding: 10px 20px;
+        border: none;
+        outline: none;
+      }
+    }
+    button {
+      border: none;
+      background-color: #7c41f0;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+  .tableComponent {
+    background-color: white;
+    padding: 20px;
+  }
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+  .cellWithStatus {
+    padding: 5px;
+    border-radius: 5px;
+
+    &.active {
+      background-color: rgba(0, 128, 0, 0.05);
+      color: green;
+    }
+    &.pending {
+      background-color: rgba(255, 217, 0, 0.05);
+      color: goldenrod;
+    }
+    &.passive {
+      background-color: rgba(255, 0, 0, 0.05);
+      color: crimson;
+    }
+    &.shipped {
+      background-color: rgba(0, 128, 0, 0.05);
+      color: green;
+    }
+    &.delivered {
+      background-color: rgba(255, 99, 71, 0.05);
+      color: tomato;
+    }
+  }
+  .cellAction {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .editButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .pencil {
+        &:hover {
+          color: #e6d46f;
+        }
+      }
+    }
+    .viewButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .view {
+        &:hover {
+          color: #84d846;
+        }
+      }
+    }
+    .deleteButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      .delete {
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}

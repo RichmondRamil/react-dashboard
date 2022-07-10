@@ -1,0 +1,67 @@
+.statistic {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  height: 185px;
+  color: #58545e;
+  .statistic-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    height: 80%;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+
+      .dots {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 20px;
+        height: 15px;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover {
+          background-color: #c9c9c991;
+        }
+
+        .dot {
+          width: 3px;
+          height: 3px;
+          background: #76737b;
+          border-radius: 3px;
+        }
+      }
+    }
+    .items {
+      display: flex;
+      justify-content: space-between;
+
+      .item {
+        display: flex;
+        gap: 20px;
+
+        .icon {
+          width: 30px;
+          height: 30px;
+          padding: 5px;
+          border-radius: 3px;
+          color: white;
+          &.icon.chart {
+            background-color: #9155fd;
+          }
+          &.icon.customer {
+            background-color: #56ca00;
+          }
+          &.icon.product {
+            background-color: #ffb400;
+          }
+        }
+      }
+    }
+  }
+}

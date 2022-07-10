@@ -1,0 +1,11 @@
+.home-page {
+  display: flex;
+  .home-page_container {
+    flex: 6;
+    background-color: #f4f5fa;
+
+    .MuiBox-root {
+      padding: 20px;
+    }
+  }
+}

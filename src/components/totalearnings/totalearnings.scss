@@ -1,0 +1,117 @@
+.totalearnings {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  color: #58545e;
+  padding: 20px;
+
+  .title {
+    display: flex;
+    justify-content: space-between;
+
+    .dots {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-direction: column;
+      width: 20px;
+      height: 15px;
+      padding: 5px;
+      border-radius: 50%;
+      cursor: pointer;
+      &:hover {
+        background-color: #c9c9c991;
+      }
+
+      .dot {
+        width: 3px;
+        height: 3px;
+        background: #76737b;
+        border-radius: 3px;
+      }
+    }
+  }
+
+  .gains {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+
+    .icon {
+      color: green;
+    }
+    p {
+      font-size: 14px;
+      color: green;
+    }
+  }
+  span {
+    font-size: 12px;
+  }
+
+  .lists {
+    margin-top: 30px;
+    .list {
+      display: flex;
+      margin-top: 20px;
+      .left {
+        display: flex;
+        flex: 8;
+
+        img {
+          width: 40px;
+          margin-right: 10px;
+        }
+      }
+      .right {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+        .outerbar-one {
+          background-color: #d4c1f7;
+          width: 100%;
+          height: 5px;
+        }
+        .innerbar-one {
+          background-color: #9155fd;
+          width: 80%;
+          height: 5px;
+        }
+        .outerbar-two {
+          background-color: #adddf5;
+          width: 100%;
+          height: 5px;
+        }
+        .innerbar-two {
+          background-color: #16b1ff;
+          width: 70%;
+          height: 5px;
+        }
+        .outerbar-three {
+          background-color: #c2d4b6;
+          width: 100%;
+          height: 5px;
+        }
+        .innerbar-three {
+          background-color: #6fd226;
+          width: 60%;
+          height: 5px;
+        }
+        .outerbar-four {
+          background-color: #c4bdbd;
+          width: 100%;
+          height: 5px;
+        }
+        .innerbar-four {
+          background-color: #464646;
+          width: 50%;
+          height: 5px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.barcharttwo {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  color: #58545e;
+  padding: 20px;
+  .barcharttwo-container {
+    padding: 10px;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      h3 {
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .dots {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 20px;
+        height: 15px;
+        padding: 5px;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover {
+          background-color: #c9c9c991;
+        }
+
+        .dot {
+          width: 3px;
+          height: 3px;
+          background: #76737b;
+          border-radius: 3px;
+        }
+      }
+    }
+
+    .description {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        margin-right: 10px;
+      }
+      padding: 10px;
+    }
+    button {
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      padding: 10px;
+      width: 100%;
+      background-color: #9155fd;
+    }
+  }
+}

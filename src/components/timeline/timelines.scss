@@ -1,0 +1,33 @@
+.timeline-page {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+  color: #58545e;
+  padding: 20px;
+  .timeline {
+    padding: 10px;
+    .MuiTimelineDot-filledError {
+      box-shadow: rgb(255 76 81 / 12%) 0px 0px 0px 3px;
+    }
+    .MuiTimelineDot-filledSecondary {
+      box-shadow: rgba(234, 76, 255, 0.12) 0px 0px 0px 3px;
+    }
+    .MuiTimelineDot-filledPrimary {
+      box-shadow: rgba(121, 154, 245, 0.12) 0px 0px 0px 3px;
+    }
+    .MuiTimelineDot-filledWarning {
+      box-shadow: rgba(245, 177, 121, 0.12) 0px 0px 0px 3px;
+    }
+
+    .title-flex {
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-size: 12px;
+        color: #bdbcbe;
+        font-weight: 300;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.analytics {
+  display: flex;
+
+  .analytics-container {
+    flex: 6;
+    background-color: #f4f5fa;
+    .MuiBox-root {
+      padding: 20px;
+    }
+  }
+}

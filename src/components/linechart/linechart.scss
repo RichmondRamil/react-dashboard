@@ -1,0 +1,33 @@
+.linechart {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 5px;
+
+  .linechart-container {
+    padding: 20px;
+    position: relative;
+
+    .dots {
+      right: 10px;
+      position: absolute;
+      width: 20px;
+      height: 15px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px;
+      cursor: pointer;
+      &:hover {
+        background-color: #c9c9c991;
+      }
+      .dot {
+        width: 3px;
+        height: 3px;
+        background-color: #76737b;
+        border-radius: 5px;
+      }
+    }
+  }
+}

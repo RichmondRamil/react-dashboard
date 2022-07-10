@@ -1,0 +1,54 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+
+  .search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 20px;
+    border: 1px solid gray;
+    border-radius: 3px;
+
+    label {
+      margin: 10px;
+    }
+    input {
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      font-size: 13px;
+    }
+  }
+
+  .lists {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    margin: 20px;
+
+    .list {
+      position: relative;
+      cursor: pointer;
+      img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .circle {
+        bottom: 6px;
+        right: 0;
+        position: absolute;
+        background-color: #56ca00;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

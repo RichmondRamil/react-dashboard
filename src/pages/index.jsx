@@ -1,0 +1,13 @@
+export { default as Home } from "../pages/home/Home";
+export { default as Analytics } from "../pages/analytics/Analytics";
+export { default as Calendar } from "../pages/calendar/Calendar";
+export { default as Chat } from "../pages/chat/Chat";
+export { default as Editor } from "../pages/editor/Editor";
+export { default as Email } from "../pages/email/Email";
+export { default as Kanban } from "../pages/kanban/Kanban";
+export { default as Notification } from "../pages/notification/Notification";
+export { default as Settings } from "../pages/settings/Settings";
+export { default as Users } from "../pages/users/Users";
+export { default as Products } from "../pages/products/Products";
+export { default as Ecommerce } from "../pages/ecommerce/Ecommerce";
+export { default as Single } from "../pages/single/Single";
